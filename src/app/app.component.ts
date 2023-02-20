@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo';
+
+  userModel:any={
+     userName:'vivek sangadiya',
+     email:''
+  }
+  onSubmit(userform:any){
+  
+    console.log(userform.value);
+    
+  }
 }
